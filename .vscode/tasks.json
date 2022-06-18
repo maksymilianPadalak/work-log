@@ -1,0 +1,31 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "build",
+      "command": "dotnet",
+      "type": "process",
+      "args": [
+        "build",
+        "${workspaceFolder}/MyRPIApp/MyRPIApp.csproj",
+        "/property:GenerateFullPaths=true",
+        "/consoleloggerparameters:NoSummary"
+      ],
+      "problemMatcher": "$msCompile"
+    },
+    {
+      "label": "publish",
+      "command": "dotnet publish ${workspaceFolder}/MyRPIApp -r linux-arm -o ${workspaceFolder}/MyRPIApp/bin/arm",
+      "type": "shell",
+      "problemMatcher": [],
+      "dependsOn": "build"
+    },
+    {
+      "label": "deploy",
+      "command": "scp -r ${workspaceFolder}/MyRPIApp/bin/arm zach@raspberrypi:/home/zach/MyRPIApp",
+      "dependsOn": "publish",
+      "type": "shell",
+      "problemMatcher": []
+    }
+  ]
+}
