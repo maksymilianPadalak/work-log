@@ -4,7 +4,6 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/MyRPIApp.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/ref/MyRPIApp.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/MyRPIApp.pdb
-/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/MyRPIApp.csprojAssemblyReference.cache
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/MyRPIApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/MyRPIApp.AssemblyInfoInputs.cache
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/MyRPIApp.AssemblyInfo.cs
@@ -13,3 +12,4 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/ref/MyRPIApp.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/MyRPIApp.pdb
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/MyRPIApp.genruntimeconfig.cache
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/MyRPIApp.csproj.AssemblyReference.cache

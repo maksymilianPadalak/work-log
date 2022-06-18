@@ -186,7 +186,6 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/libhostpolicy.so
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/libmscordaccore.so
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/libmscordbi.so
-/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.csprojAssemblyReference.cache
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.GeneratedMSBuildEditorConfig.editorconfig
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.AssemblyInfoInputs.cache
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.AssemblyInfo.cs
@@ -196,3 +195,4 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/ref/MyRPIApp.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.pdb
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.genruntimeconfig.cache
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.csproj.AssemblyReference.cache

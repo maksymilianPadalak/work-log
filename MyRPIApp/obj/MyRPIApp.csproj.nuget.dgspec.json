@@ -37,6 +37,12 @@
       "frameworks": {
         "net5.0": {
           "targetAlias": "net5.0",
+          "dependencies": {
+            "System.Device.Gpio": {
+              "target": "Package",
+              "version": "[1.5.0, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -47,31 +53,12 @@
           ],
           "assetTargetFallback": true,
           "warn": true,
-          "downloadDependencies": [
-            {
-              "name": "Microsoft.AspNetCore.App.Runtime.linux-arm",
-              "version": "[5.0.2, 5.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Host.linux-arm",
-              "version": "[5.0.2, 5.0.2]"
-            },
-            {
-              "name": "Microsoft.NETCore.App.Runtime.linux-arm",
-              "version": "[5.0.2, 5.0.2]"
-            }
-          ],
           "frameworkReferences": {
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.102/RuntimeIdentifierGraph.json"
-        }
-      },
-      "runtimes": {
-        "linux-arm": {
-          "#import": []
+          "runtimeIdentifierGraphPath": "/usr/local/share/dotnet/sdk/5.0.408/RuntimeIdentifierGraph.json"
         }
       }
     }

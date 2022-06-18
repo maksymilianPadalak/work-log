@@ -3,4 +3,7 @@
   <PropertyGroup>
     <MSBuildAllProjects>$(MSBuildAllProjects);$(MSBuildThisFileFullPath)</MSBuildAllProjects>
   </PropertyGroup>
+  <ImportGroup Condition=" '$(ExcludeRestorePackageImports)' != 'true' ">
+    <Import Project="$(NuGetPackageRoot)system.device.gpio/1.5.0/buildTransitive/net5.0/System.Device.Gpio.targets" Condition="Exists('$(NuGetPackageRoot)system.device.gpio/1.5.0/buildTransitive/net5.0/System.Device.Gpio.targets')" />
+  </ImportGroup>
 </Project>

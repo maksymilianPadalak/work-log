@@ -1,12 +1,16 @@
 {
   "version": 2,
-  "dgSpecHash": "jGKaPAEq1PoxKpJdd36PX2NK9xnkGgg+eoNT+KAZbGFqukpekR6uPBVZKC3IfDPhbXtWeDcTk00aD4/4DioIPw==",
+  "dgSpecHash": "fc3OLcYaifPiOK+fND6Dl8ft5jT+p7qSq5ZAdCz4SVsUPGU/HOBG2nF2CUSs42U/cd8LVxt69Z4gydOcaQilrQ==",
   "success": true,
   "projectFilePath": "/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/MyRPIApp.csproj",
   "expectedPackageFiles": [
-    "/Users/maksymilianpadalak/.nuget/packages/microsoft.netcore.app.runtime.linux-arm/5.0.2/microsoft.netcore.app.runtime.linux-arm.5.0.2.nupkg.sha512",
-    "/Users/maksymilianpadalak/.nuget/packages/microsoft.aspnetcore.app.runtime.linux-arm/5.0.2/microsoft.aspnetcore.app.runtime.linux-arm.5.0.2.nupkg.sha512",
-    "/Users/maksymilianpadalak/.nuget/packages/microsoft.netcore.app.host.linux-arm/5.0.2/microsoft.netcore.app.host.linux-arm.5.0.2.nupkg.sha512"
+    "/Users/maksymilianpadalak/.nuget/packages/microsoft.netcore.platforms/5.0.0/microsoft.netcore.platforms.5.0.0.nupkg.sha512",
+    "/Users/maksymilianpadalak/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
+    "/Users/maksymilianpadalak/.nuget/packages/system.device.gpio/1.5.0/system.device.gpio.1.5.0.nupkg.sha512",
+    "/Users/maksymilianpadalak/.nuget/packages/system.memory/4.5.4/system.memory.4.5.4.nupkg.sha512",
+    "/Users/maksymilianpadalak/.nuget/packages/system.security.accesscontrol/5.0.0/system.security.accesscontrol.5.0.0.nupkg.sha512",
+    "/Users/maksymilianpadalak/.nuget/packages/system.security.principal.windows/5.0.0/system.security.principal.windows.5.0.0.nupkg.sha512",
+    "/Users/maksymilianpadalak/.nuget/packages/system.threading.tasks.extensions/4.5.4/system.threading.tasks.extensions.4.5.4.nupkg.sha512"
   ],
   "logs": []
 }
