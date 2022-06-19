@@ -35,18 +35,6 @@ void ChangeLedsState(bool isGreenOn, bool isRedOn, bool isYellowOn)
 
 ChangeLedsState(false, false, true);
 
-using (Dht11 dht = new Dht11(4))
-{
-  while (true)
-  {
-    Console.WriteLine("Reading temperature");
-    var temperature = dht.Temperature;
-    Console.WriteLine($"Temperature: {temperature.DegreesCelsius:0.#}\u00b0C");
-    Thread.Sleep(1000);
-  }
-}
-
-
 async void LogCardEvent(string uri, string uuid)
 {
   using (var client = new HttpClient())
@@ -106,11 +94,16 @@ void ReadData(CancellationToken cancellationToken)
     {
       using (SpiDevice spi = SpiDevice.Create(connection))
       using (MfRc522 mfrc522 = new(spi, pinReset, gpioController, false))
+      using (Dht11 dht = new Dht11(4))
       {
         Data106kbpsTypeA card;
         var res = mfrc522.ListenToCardIso14443TypeA(out card, TimeSpan.FromSeconds(2));
 
         ChangeLedsState(true, false, false);
+
+        Console.WriteLine("Reading temperature");
+        var temperature = dht.Temperature;
+        Console.WriteLine($"Temperature: {temperature.DegreesCelsius:0.#}\u00b0C");
 
         if (res)
         {
