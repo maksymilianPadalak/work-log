@@ -8,6 +8,7 @@ using Iot.Device.Rfid;
 using System.Threading;
 using System.Threading.Tasks;
 using System.Text;
+using Newtonsoft.Json;
 
 const int RED_LED_PIN = 12;
 const int YELLOW_LED_PIN = 17;
@@ -35,29 +36,21 @@ void ChangeLedsState(bool isGreenOn, bool isRedOn, bool isYellowOn)
 
 ChangeLedsState(false, false, true);
 
-async void LogCardEvent(string uri, string uuid)
+async void PostData(string uri, string jsonBody)
 {
   using (var client = new HttpClient())
   {
-    var endpoint = new Uri("http://smart-home-web-app.azurewebsites.net/api/card-reader/3ed94e90-4d51-4566-8623-3c7343d64253");
-    var result = client.GetAsync(endpoint).Result.Content.ReadAsStringAsync().Result;
-    Console.WriteLine(result);
-
-    long unixTime = DateTimeOffset.UtcNow.ToUnixTimeSeconds();
-    var body = "";
-
     var response = await client.PostAsync(
         uri,
-        new StringContent(body, Encoding.UTF8, "application/json"));
+        new StringContent(jsonBody, Encoding.UTF8, "application/json"));
 
-    Console.WriteLine(body);
+    Console.WriteLine(jsonBody);
     Console.WriteLine(response);
   }
 }
 
-const string smartHomeUrl = "http://smart-home-web-app.azurewebsites.net/api/card-reader";
-
-LogCardEvent(smartHomeUrl, "");
+const string postCardEventUrl = "http://smart-home-web-app.azurewebsites.net/api/card-reader";
+const string postWeatherUrl = "http://smart-home-web-app.azurewebsites.net/api/weather";
 
 string GetCardId(Data106kbpsTypeA card) => Convert.ToHexString(card.NfcId);
 
@@ -77,6 +70,7 @@ Console.ReadKey();
 source.Cancel();
 
 await task;
+
 
 void ReadData(CancellationToken cancellationToken)
 {
@@ -110,7 +104,27 @@ void ReadData(CancellationToken cancellationToken)
           ChangeLedsState(false, false, true);
           var cardId = GetCardId(card);
           Console.WriteLine(cardId);
-          //Call AP
+
+          var cardEventData = new
+          {
+            cardId = "B17B0A32",
+            createdAt = DateTimeOffset.Now.ToUnixTimeSeconds(),
+          };
+
+          string jsonCardEventData = JsonConvert.SerializeObject(cardEventData);
+
+          PostData(postCardEventUrl, jsonCardEventData);
+
+          var weatherData = new
+          {
+            temperature = temperature.DegreesCelsius,
+            takenAt = DateTimeOffset.Now.ToUnixTimeSeconds(),
+          };
+
+          string jsonWeatherData = JsonConvert.SerializeObject(weatherData);
+
+          PostData(postWeatherUrl, jsonWeatherData);
+
           Thread.Sleep(2000);
           ChangeLedsState(true, false, false);
         }

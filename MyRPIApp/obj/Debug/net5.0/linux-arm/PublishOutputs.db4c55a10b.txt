@@ -187,6 +187,7 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/Iot.Device.Bindings.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/Microsoft.Extensions.Logging.Abstractions.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/Microsoft.Win32.SystemEvents.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/Newtonsoft.Json.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/SixLabors.ImageSharp.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/System.CodeDom.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/System.Device.Gpio.dll

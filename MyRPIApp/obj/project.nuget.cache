@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "ucXp277x3UBcJf6rvXEZpJpeu65tDxXdZ00rUEBCUSANFl7/IzO7oDKvcRn63i0XS8x0hV4K3sG0lNHNi6KC2g==",
+  "dgSpecHash": "uJp+69dhB40hUUND6mKJ9H9hgThblkzC0tu6qKMvjgNY/68YnWPdjyHpPcZtZy4JT5e+LBc+VlA7W7KmQR1Bxg==",
   "success": true,
   "projectFilePath": "/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/MyRPIApp.csproj",
   "expectedPackageFiles": [
@@ -11,6 +11,7 @@
     "/Users/maksymilianpadalak/.nuget/packages/microsoft.win32.primitives/4.3.0/microsoft.win32.primitives.4.3.0.nupkg.sha512",
     "/Users/maksymilianpadalak/.nuget/packages/microsoft.win32.registry/5.0.0/microsoft.win32.registry.5.0.0.nupkg.sha512",
     "/Users/maksymilianpadalak/.nuget/packages/microsoft.win32.systemevents/5.0.0/microsoft.win32.systemevents.5.0.0.nupkg.sha512",
+    "/Users/maksymilianpadalak/.nuget/packages/newtonsoft.json/13.0.1/newtonsoft.json.13.0.1.nupkg.sha512",
     "/Users/maksymilianpadalak/.nuget/packages/runtime.any.system.collections/4.3.0/runtime.any.system.collections.4.3.0.nupkg.sha512",
     "/Users/maksymilianpadalak/.nuget/packages/runtime.any.system.diagnostics.tracing/4.3.0/runtime.any.system.diagnostics.tracing.4.3.0.nupkg.sha512",
     "/Users/maksymilianpadalak/.nuget/packages/runtime.any.system.globalization/4.3.0/runtime.any.system.globalization.4.3.0.nupkg.sha512",

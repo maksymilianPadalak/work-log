@@ -207,3 +207,4 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/System.Management.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/UnitsNet.dll
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/libSystem.IO.Ports.Native.so
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/Newtonsoft.Json.dll
