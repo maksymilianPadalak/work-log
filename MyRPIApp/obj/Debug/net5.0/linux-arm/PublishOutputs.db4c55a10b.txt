@@ -184,3 +184,14 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/libhostpolicy.so
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/libmscordaccore.so
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/libmscordbi.so
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/Iot.Device.Bindings.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/Microsoft.Win32.SystemEvents.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/SixLabors.ImageSharp.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/System.CodeDom.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/System.Device.Gpio.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/System.Drawing.Common.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/System.IO.Ports.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/System.Management.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/UnitsNet.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/arm/libSystem.IO.Ports.Native.so

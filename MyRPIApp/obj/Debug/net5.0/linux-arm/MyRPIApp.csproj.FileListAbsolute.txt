@@ -196,3 +196,14 @@
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.pdb
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.genruntimeconfig.cache
 /Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/obj/Debug/net5.0/linux-arm/MyRPIApp.csproj.AssemblyReference.cache
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/System.Device.Gpio.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/Iot.Device.Bindings.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/Microsoft.Extensions.Logging.Abstractions.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/Microsoft.Win32.SystemEvents.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/SixLabors.ImageSharp.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/System.CodeDom.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/System.Drawing.Common.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/System.IO.Ports.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/System.Management.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/UnitsNet.dll
+/Users/maksymilianpadalak/Desktop/Studia/c#/HelloRpi/MyRPIApp/bin/Debug/net5.0/linux-arm/libSystem.IO.Ports.Native.so

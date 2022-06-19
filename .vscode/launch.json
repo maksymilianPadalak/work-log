@@ -2,6 +2,17 @@
   "version": "0.2.0",
   "configurations": [
     {
+      "name": ".NET Core Attach",
+      "type": "coreclr",
+      "request": "attach",
+      "pipeTransport": {
+        "pipeCwd": "${workspaceFolder}",
+        "pipeProgram": "ssh",
+        "pipeArgs": ["zach@raspberrypi"],
+        "debuggerPath": "/home/zach/vsdbg/vsdbg"
+      }
+    },
+    {
       "preLaunchTask": "deploy",
       "name": ".Net Core Launch (remote)",
       "type": "coreclr",
